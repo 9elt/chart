@@ -5,7 +5,7 @@
         display: block;
         height: 12rem;
     }
-    poligon,
+    polygon,
     rect {
         stroke-miterlimit: 10;
         stroke-linecap: round;
