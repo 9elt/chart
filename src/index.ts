@@ -1,4 +1,4 @@
-import { Point, X, Y } from "./point";
+import { Vec2, X, Y } from "./vec";
 import { join } from "./util";
 
 const _CHUNK_ELEM_COUNT = 3;
@@ -74,7 +74,7 @@ export function svgChart(
             }
         }
 
-        let pp = new Point();
+        let pp = new Vec2();
 
         for (let i = 0; i < nCol; i++) {
             const className = columns[i].className;
@@ -112,17 +112,17 @@ export function svgChart(
             );
 
             // center
-            const p = new Point(x + (w + mx) / 2, mt - perspective / 2);
+            const p = new Vec2(x + (w + mx) / 2, mt - perspective / 2);
 
             // line vector
-            const v = new Point(p[X] - pp[X], p[Y] - pp[Y]);
+            const v = new Vec2(p[X] - pp[X], p[Y] - pp[Y]);
             const vl = Math.sqrt(v[X] ** 2 + v[Y] ** 2);
 
             // normalized vector
-            const u = new Point(v[X] / vl, v[Y] / vl);
+            const u = new Vec2(v[X] / vl, v[Y] / vl);
 
-            const start = new Point(p[X] - u[X] * radius, p[Y] - u[Y] * radius);
-            const end = new Point(pp[X] + u[X] * radius, pp[Y] + u[Y] * radius);
+            const start = new Vec2(p[X] - u[X] * radius, p[Y] - u[Y] * radius);
+            const end = new Vec2(pp[X] + u[X] * radius, pp[Y] + u[Y] * radius);
 
             const circle = children[li];
             circle.setAttribute("class", join("line", className));
