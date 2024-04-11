@@ -1,11 +1,12 @@
 import { svgChart } from "../src";
 
 const columns = [
-    { value: 0, className: "yellow", max: 55 },
-    { value: 0, className: "blue", max: 99 },
-    { value: 0, className: "orange", max: 14 },
-    { value: 0, className: "yellow", max: 44 },
-    { value: 0, className: "yellow", max: 44 },
+    { value: 0, className: "blue", max: 100 },
+    { value: 0, className: "blue", max: 75 },
+    { value: 0, className: "yellow", max: 64 },
+    { value: 0, className: "red", max: 14 },
+    { value: 0, className: "orange", max: 44 },
+    { value: 0, className: "orange", max: 28 },
 ];
 
 const config = {
@@ -21,7 +22,7 @@ const [svg, update] = svgChart(columns, config);
 
 document.body.prepend(svg);
 
-let pending = 0b11111;
+let pending = 0b111111;
 
 const loop = () => {
     for (let i = 0; i < columns.length; i++) {
