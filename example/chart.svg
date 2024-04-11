@@ -1,10 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443" x="0px" y="0px" viewBox="0 0 94 64">
 <style>
-    svg {
-        margin: auto;
-        display: block;
-        height: 12rem;
-    }
     polygon,
     rect {
         stroke-miterlimit: 10;
@@ -29,7 +24,7 @@
     .top.yellow { fill: #f0b13d }
     .side.yellow { fill: #f0b13d; }
     .front.yellow { fill: #ffc354; }
-<style>
+</style>
 <rect class="top yellow" x="2" y="33.2" width="14" height="30.8"></rect>
 <polygon class="side yellow" points="16,33.2 20,29.200000000000003 20,60 16,64"></polygon>
 <polygon class="front yellow" points="2,33.2 6,29.200000000000003 20,29.200000000000003 16,33.2"></polygon>
