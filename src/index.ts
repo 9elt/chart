@@ -38,9 +38,12 @@ export function svgChart(
         children[ci + 1] = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
         children[ci + 2] = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
 
-        children[li] = document.createElementNS("http://www.w3.org/2000/svg", "circle");
         if (i > 0) {
-            children[li + 1] = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            children[li - 1] = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+            children[li] = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        }
+        else {
+            children[li] = document.createElementNS("http://www.w3.org/2000/svg", "circle");
         }
     }
 
@@ -125,14 +128,14 @@ export function svgChart(
             const start = new Vec2(p[X] - u[X] * radius, p[Y] - u[Y] * radius);
             const end = new Vec2(pp[X] + u[X] * radius, pp[Y] + u[Y] * radius);
 
-            const circle = children[li];
+            const circle = children[i > 0 ? li - 1 : li];
             circle.setAttribute("class", join("line", className));
             circle.setAttribute("cx", p[X]);
             circle.setAttribute("cy", p[Y]);
             circle.setAttribute("r", radius);
 
             if (i > 0) {
-                const line = children[li + 1];
+                const line = children[li];
                 line.setAttribute("class", join("line", className));
                 line.setAttribute("x1", start[X]);
                 line.setAttribute("y1", start[Y]);

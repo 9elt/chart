@@ -11,7 +11,7 @@ const columns = [
 
 const config = {
     height: 64,
-    perspective: 1,
+    perspective: 0.0001,
     radius: 4,
     columnWidth: 14,
     columnMargin: 2,
@@ -40,7 +40,7 @@ const loop = () => {
             }
         }
 
-        config.perspective = 1 + (columns[0].value / columns[0].max) * 3;
+        config.perspective = (columns[0].value / columns[0].max) * 4;
     }
 
     update();
