@@ -1,2 +1,5 @@
-# graph-gen-js
-generates a svg graph
+# Chart
+
+A chart
+
+![chart image](./example/chart.png)
