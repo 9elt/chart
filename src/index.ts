@@ -59,7 +59,8 @@ export function svgChart(
         const lineThickness = config.lineThickness || 2;
 
         const trueMaxH = maxH - perspective - radius / 2 - lineThickness;
-        const viewBoxX = (w + mx) * nCol + mx + perspective;
+        const viewBoxW = (w + mx) * nCol + mx + perspective;
+        const viewBoxH = maxH + mx;
 
         let maxValue = 0;
 
@@ -142,7 +143,7 @@ export function svgChart(
             pp = p;
         }
 
-        svg.setAttribute("viewBox", "0 0 " + viewBoxX + " " + maxH);
+        svg.setAttribute("viewBox", "0 0 " + viewBoxW + " " + viewBoxH);
     };
 
     update();
