@@ -1,51 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443" x="0px" y="0px" viewBox="0 0 102 64">
 <style>
-    polygon,
-    rect {
-        stroke-miterlimit: 10;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke: #fff;
-        stroke-width: .05;
-    }
-    line,
-    circle {
+    .line {
         fill: none;
-        stroke: #000000cf;
+        stroke: #ffffffde;
         stroke-miterlimit: 10;
         stroke-width: 1;
     }
-    .top.blue { fill: #369bee; }
-    .side.blue { fill: #369bee; }
-    .front.blue { fill: #5ab4fd; }
-    .top.orange { fill: #f0703d; }
-    .side.orange { fill: #f0703d; }
-    .front.orange { fill: #ff8454; }
-    .top.red { fill: #fb3a30; }
-    .side.red { fill: #fb3a30; }
-    .front.red { fill: #fd625a; }
-    .top.yellow { fill: #f0b13d; }
-    .side.yellow { fill: #f0b13d; }
-    .front.yellow { fill: #ffc354; }
+
+    .front.blue { fill: #369bee; }
+    .side.blue { fill: #3183c5; }
+    .top.blue { fill: #5ab4fd; }
+
+    .front.orange { fill: #f0703d; }
+    .side.orange { fill: #d76031; }
+    .top.orange { fill: #ff8454; }
+
+    .front.red { fill: #fb3a30; }
+    .side.red { fill: #c92f27; }
+    .top.red { fill: #fd625a; }
+
+    .front.yellow { fill: #f0b13d; }
+    .side.yellow { fill: #c29034; }
+    .top.yellow { fill: #ffc354; }
 </style>
-<rect class="top blue" x="2" y="8" width="14" height="56"></rect>
+<rect class="front blue" x="2" y="8" width="14" height="56"></rect>
 <polygon class="side blue" points="16,8 20,4 20,60 16,64"></polygon>
-<polygon class="front blue" points="2,8 6,4 20,4 16,8"></polygon>
-<rect class="top blue" x="18" y="22" width="14" height="42"></rect>
+<polygon class="top blue" points="2,8 6,4 20,4 16,8"></polygon>
+<rect class="front blue" x="18" y="22" width="14" height="42"></rect>
 <polygon class="side blue" points="32,22 36,18 36,60 32,64"></polygon>
-<polygon class="front blue" points="18,22 22,18 36,18 32,22"></polygon>
-<rect class="top yellow" x="34" y="28.159999999999997" width="14" height="35.84"></rect>
+<polygon class="top blue" points="18,22 22,18 36,18 32,22"></polygon>
+<rect class="front yellow" x="34" y="28.159999999999997" width="14" height="35.84"></rect>
 <polygon class="side yellow" points="48,28.159999999999997 52,24.159999999999997 52,60 48,64"></polygon>
-<polygon class="front yellow" points="34,28.159999999999997 38,24.159999999999997 52,24.159999999999997 48,28.159999999999997"></polygon>
-<rect class="top red" x="50" y="56.16" width="14" height="7.84"></rect>
+<polygon class="top yellow" points="34,28.159999999999997 38,24.159999999999997 52,24.159999999999997 48,28.159999999999997"></polygon>
+<rect class="front red" x="50" y="56.16" width="14" height="7.84"></rect>
 <polygon class="side red" points="64,56.16 68,52.16 68,60 64,64"></polygon>
-<polygon class="front red" points="50,56.16 54,52.16 68,52.16 64,56.16"></polygon>
-<rect class="top orange" x="66" y="39.36" width="14" height="24.64"></rect>
+<polygon class="top red" points="50,56.16 54,52.16 68,52.16 64,56.16"></polygon>
+<rect class="front orange" x="66" y="39.36" width="14" height="24.64"></rect>
 <polygon class="side orange" points="80,39.36 84,35.36 84,60 80,64"></polygon>
-<polygon class="front orange" points="66,39.36 70,35.36 84,35.36 80,39.36"></polygon>
-<rect class="top orange" x="82" y="48.32" width="14" height="15.68"></rect>
+<polygon class="top orange" points="66,39.36 70,35.36 84,35.36 80,39.36"></polygon>
+<rect class="front orange" x="82" y="48.32" width="14" height="15.68"></rect>
 <polygon class="side orange" points="96,48.32 100,44.32 100,60 96,64"></polygon>
-<polygon class="front orange" points="82,48.32 86,44.32 100,44.32 96,48.32"></polygon>
+<polygon class="top orange" points="82,48.32 86,44.32 100,44.32 96,48.32"></polygon>
 <circle class="line blue" cx="10" cy="6" r="4"></circle>undefined<circle class="line blue" cx="26" cy="20" r="4"></circle>
 <line class="line blue" x1="22.989693221172487" y1="17.36598156852593" x2="13.01030677882751" y2="8.634018431474072"></line>
 <circle class="line yellow" cx="42" cy="26.159999999999997" r="4"></circle>

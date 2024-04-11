@@ -86,12 +86,12 @@ export function svgChart(
             const x = mx + i * (w + mx);
             const mt = maxH - h;
 
-            const top = children[ci];
-            top.setAttribute("class", join("top", className));
-            top.setAttribute("x", x);
-            top.setAttribute("y", mt);
-            top.setAttribute("width", w);
-            top.setAttribute("height", h);
+            const front = children[ci];
+            front.setAttribute("class", join("front", className));
+            front.setAttribute("x", x);
+            front.setAttribute("y", mt);
+            front.setAttribute("width", w);
+            front.setAttribute("height", h);
 
             const side = children[ci + 1];
             side.setAttribute("class", join("side", className));
@@ -102,9 +102,9 @@ export function svgChart(
                 (x + w) + "," + maxH
             );
 
-            const front = children[ci + 2];
-            front.setAttribute("class", join("front", className));
-            front.setAttribute("points",
+            const top = children[ci + 2];
+            top.setAttribute("class", join("top", className));
+            top.setAttribute("points",
                 x + "," + mt + " " +
                 (x + perspective) + "," + (mt - perspective) + " " +
                 (x + w + perspective) + "," + (mt - perspective) + " " +
