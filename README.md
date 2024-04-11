@@ -1,5 +1,5 @@
 # Chart
 
-A chart
+An SVG chart
 
 ![chart image](./example/chart.svg)
