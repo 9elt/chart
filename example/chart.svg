@@ -30,52 +30,28 @@
     .side.yellow { fill: #f0b13d; }
     .front.yellow { fill: #ffc354; }
 <style>
-<rect class="top yellow" x="2" y="33.2" width="14" height="30.8">
-</rect>
-<polygon class="side yellow" points="16,33.2 20,29.200000000000003 20,60 16,64">
-</polygon>
-<polygon class="front yellow" points="2,33.2 6,29.200000000000003 20,29.200000000000003 16,33.2">
-</polygon>
-<rect class="top blue" x="18" y="8.560000000000002" width="14" height="55.44">
-</rect>
-<polygon class="side blue" points="32,8.560000000000002 36,4.560000000000002 36,60 32,64">
-</polygon>
-<polygon class="front blue" points="18,8.560000000000002 22,4.560000000000002 36,4.560000000000002 32,8.560000000000002">
-</polygon>
-<rect class="top orange" x="34" y="56.16" width="14" height="7.84">
-</rect>
-<polygon class="side orange" points="48,56.16 52,52.16 52,60 48,64">
-</polygon>
-<polygon class="front orange" points="34,56.16 38,52.16 52,52.16 48,56.16">
-</polygon>
-<rect class="top yellow" x="50" y="39.36" width="14" height="24.64">
-</rect>
-<polygon class="side yellow" points="64,39.36 68,35.36 68,60 64,64">
-</polygon>
-<polygon class="front yellow" points="50,39.36 54,35.36 68,35.36 64,39.36">
-</polygon>
-<rect class="top yellow" x="66" y="39.36" width="14" height="24.64">
-</rect>
-<polygon class="side yellow" points="80,39.36 84,35.36 84,60 80,64">
-</polygon>
-<polygon class="front yellow" points="66,39.36 70,35.36 84,35.36 80,39.36">
-</polygon>
-<circle class="line yellow" cx="10" cy="31.200000000000003" r="4">
-</circle>undefined
-<circle class="line blue" cx="26" cy="6.560000000000002" r="4">
-</circle>
-<line class="line blue" x1="23.821578228587178" y1="9.91476952797575" x2="12.178421771412824" y2="27.845230472024255">
-</line>
-<circle class="line orange" cx="42" cy="54.16" r="4">
-</circle>
-<line class="line orange" x1="40.72553445715578" y1="50.36846501003844" x2="27.274465542844222" y2="10.351534989961559">
-</line>
-<circle class="line yellow" cx="58" cy="37.36" r="4">
-</circle>
-<line class="line yellow" x1="55.241379310344826" y1="40.25655172413793" x2="44.758620689655174" y2="51.26344827586207">
-</line>
-<circle class="line yellow" cx="74" cy="37.36" r="4">
-</circle>
-<line class="line yellow" x1="70" y1="37.36" x2="62" y2="37.36">
-</line>
+<rect class="top yellow" x="2" y="33.2" width="14" height="30.8"></rect>
+<polygon class="side yellow" points="16,33.2 20,29.200000000000003 20,60 16,64"></polygon>
+<polygon class="front yellow" points="2,33.2 6,29.200000000000003 20,29.200000000000003 16,33.2"></polygon>
+<rect class="top blue" x="18" y="8.560000000000002" width="14" height="55.44"></rect>
+<polygon class="side blue" points="32,8.560000000000002 36,4.560000000000002 36,60 32,64"></polygon>
+<polygon class="front blue" points="18,8.560000000000002 22,4.560000000000002 36,4.560000000000002 32,8.560000000000002"></polygon>
+<rect class="top orange" x="34" y="56.16" width="14" height="7.84"></rect>
+<polygon class="side orange" points="48,56.16 52,52.16 52,60 48,64"></polygon>
+<polygon class="front orange" points="34,56.16 38,52.16 52,52.16 48,56.16"></polygon>
+<rect class="top yellow" x="50" y="39.36" width="14" height="24.64"></rect>
+<polygon class="side yellow" points="64,39.36 68,35.36 68,60 64,64"></polygon>
+<polygon class="front yellow" points="50,39.36 54,35.36 68,35.36 64,39.36"></polygon>
+<rect class="top yellow" x="66" y="39.36" width="14" height="24.64"></rect>
+<polygon class="side yellow" points="80,39.36 84,35.36 84,60 80,64"></polygon>
+<polygon class="front yellow" points="66,39.36 70,35.36 84,35.36 80,39.36"></polygon>
+<circle class="line yellow" cx="10" cy="31.200000000000003" r="4"></circle>
+<circle class="line blue" cx="26" cy="6.560000000000002" r="4"></circle>
+<line class="line blue" x1="23.821578228587178" y1="9.91476952797575" x2="12.178421771412824" y2="27.845230472024255"></line>
+<circle class="line orange" cx="42" cy="54.16" r="4"></circle>
+<line class="line orange" x1="40.72553445715578" y1="50.36846501003844" x2="27.274465542844222" y2="10.351534989961559"></line>
+<circle class="line yellow" cx="58" cy="37.36" r="4"></circle>
+<line class="line yellow" x1="55.241379310344826" y1="40.25655172413793" x2="44.758620689655174" y2="51.26344827586207"></line>
+<circle class="line yellow" cx="74" cy="37.36" r="4"></circle>
+<line class="line yellow" x1="70" y1="37.36" x2="62" y2="37.36"></line>
 </svg>
