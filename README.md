@@ -2,4 +2,4 @@
 
 A chart
 
-![chart image](./example/chart.png)
+![chart image](./example/chart.svg)
