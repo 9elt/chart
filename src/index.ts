@@ -59,7 +59,7 @@ export function svgChart(
         const lineThickness = config.lineThickness || 2;
 
         const trueMaxH = maxH - perspective - radius / 2 - lineThickness;
-        const viewBoxX = (w + (mx * 2)) * nCol + perspective;
+        const viewBoxX = (w + mx) * nCol + mx + perspective;
 
         let maxValue = 0;
 
