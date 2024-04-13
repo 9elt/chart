@@ -63,7 +63,7 @@ export function svgChart(
 
         const trueMaxH = maxH - perspective - radius / 2 - lineThickness;
         const viewBoxW = (w + mx) * nCol + mx + perspective;
-        const viewBoxH = maxH + mx;
+        const viewBoxH = maxH + radius + lineThickness - perspective / 2;
 
         let maxValue = 0;
 
