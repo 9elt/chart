@@ -45,8 +45,9 @@ const loop = () => {
 
     update();
 
-    if (pending)
+    if (pending) {
         requestAnimationFrame(loop);
+    }
 }
 
 loop();
